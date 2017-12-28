@@ -1,0 +1,381 @@
+/* newly added today */
+@media only screen and (max-width: 1300px) {
+	.cmn-mdle-bx {
+		width: 80%;
+		margin: 20px 10%;
+	}
+     .grid{
+        overflow-x: auto;
+    }
+}
+/* end here */
+
+
+@media only screen and (max-width: 1250px) {
+	.nav > li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.nav > li > a {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+  
+}
+
+@media only screen and (max-width: 1175px) {
+	.navbar-inverse .navbar-nav > li >a,
+	.nav > li > a {
+		font-size:13px;
+	}
+	.nav > li > a {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.navbar-brand {
+		font-size: 25px;
+	}
+	.header-strip {
+		padding: 15px 40px 0;
+	}
+	h1.login {
+		padding: 15px 40px;
+	}
+    label{
+        font-size: 13px;
+    }
+    .grid, .main-inner {
+        padding: 0 36px;
+        margin-bottom: 12px;
+    }
+    .inline-label input[type="text"], .inline-label input[type="tel"], .inline-label input[type="password"], .inline-label textarea, .inline-         label select {
+        width: calc(100% - 172px);
+        font-size: 13px;
+    }
+    .inline-label label{
+        min-width: 147px;
+        padding-right: 8px;
+    }
+    .inline-label input[type="text"], 
+    .inline-label input[type="tel"], 
+    .inline-label input[type="password"], 
+    .inline-label textarea, 
+    .inline-label select {
+        width: calc(100% - 147px);
+        min-width: 151px;
+    }
+    .medium {
+        max-width: 151px;
+    }
+    .grid{
+        overflow-x: auto;
+        
+    }
+    input.normal-w[type="text"], label.normal-w {
+    min-width: 116px;
+}
+    
+    
+}
+
+@media only screen and (max-width: 1024px) {
+	.nav > li > a {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+     .grid{
+        overflow-x: auto;
+    }
+    .tbl {
+    width: 964px;
+}
+    
+}
+
+@media only screen and (max-width: 1006px) {
+	.navbar-inverse .navbar-nav > li >a,
+	.nav > li > a {
+		font-size:13px;
+	}
+	.nav > li > a {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.navbar-brand {
+		font-size: 25px;
+	}
+	.header-strip {
+		padding: 15px 30px 0;
+	}
+	h1.login {
+		padding: 15px 30px;
+	}
+
+  
+}
+
+@media (max-width: 992px) {
+	.shrink .logo img {
+		opacity: 1;
+		display: inline-block;
+	}
+	.shrink .logo span {
+		top: 31px;
+	}
+	.header-strip {
+		height:113px;
+	}
+	#content-wrap {
+		margin-top: 113px;
+	}
+	.top-header {
+		border-bottom: 0;
+	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 0;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+		z-index:111
+	}
+	.navbar-collapse{
+      background-color:#227998;
+      position: fixed;
+      top: 121px;
+      transition:all 0.8s ease-out;
+      height: 100%;
+      width: 100%;
+      left: 700px;
+    }
+	.navbar .navbar-collapse.collapse {
+		height: 100% !important;
+	}
+	.header-fixed-top {
+		padding: 15px 30px 0;
+		min-height: 121px;
+		position:fixed;
+		z-index: 111;
+	}
+	.login-rw {
+		background: #1b5c73;
+		padding: 18px 0 18px 10px;
+		position:relative;
+	}
+	
+	.login-rw .btn-gren-mob {
+		position:absolute;
+		right:15px;
+		top:12px;
+	}
+    .grid, .main-inner{
+        padding: 0 40px;
+    }
+    h1.login, .top-title{
+        padding: 15px 40px;
+    }
+.inline-label input[type="text"], .inline-label input[type="tel"], .inline-label input[type="password"], .inline-label textarea, .inline-label select {
+    width: inherit;
+    min-width: auto;
+    width: 100%;
+    max-width: 100%;
+}
+    .inline-label label {
+    min-width: auto;
+    padding-right: 8px;
+    width: 100%;
+    text-align: left;
+}
+.right-custome .row {
+    float: none;
+}
+    .addClinickWrap {
+    padding-left:0;
+    margin-top: 50px;
+}
+    .avilable-time {
+    width: 100%;
+}
+    
+    
+    /* newly added today */
+	label.bx-lbl-sml,
+	label.bx-lbl-big {
+		width: 100%;
+		text-align: left;
+	}
+	.mdle-bx-form input[type="text"],
+	.mdle-bx-form input[type="tel"],
+	.mdle-bx-form input[type="password"],
+	.mdle-bx-form textarea,
+	.mdle-bx-form select
+	{
+		min-width: 100%;
+		width: 100%;
+	}
+	.note-txt {
+		width: 100%;
+		padding-left: 0;
+	}
+	/* end here */
+    
+}
+
+@media only screen and (max-width: 767px) {
+	[class*="col-"].btn-right-spce {
+		padding-right:0 !important;
+	}
+	[class*="col-"].btn-left-spce {
+		padding-left:0 !important;
+	}
+	[class*="col-"].col-right-spce {
+		padding-right:0;
+	}
+
+	[class*="col-"].col-left-spce {
+		padding-left:0;
+	}
+	.btn-login-top-spce {
+		margin-top:10px;
+	}	
+	.login-bx {
+		margin: 0 0 20px;
+	}
+
+    .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    }
+	
+	.header-strip .navbar-nav {
+		margin: 0;
+	}
+	
+	.navbar-brand {
+		font-size: 18px;
+	}
+	
+	.navbar-nav {
+		margin: 7.5px 0;
+	}
+     .grid, .main-inner{
+        padding: 0 25px;
+    }
+    
+    .grid{
+        overflow-x: auto;
+        width: 100%;
+    }
+    footer span {
+        font-size: 12px;
+    }
+    .avilable-time {
+        margin-top: 10px;
+    }
+    h1.login, .top-title {
+        padding: 15px 25px;
+    }
+    .searchSec {
+        float: right;
+        position: relative;
+        min-width: 100%;
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+    .searchSec input{
+        min-width: 100%;
+    }
+
+    /* newly added today */
+	.header-strip-reg {
+		background: #227998;
+		padding-top: 15px;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+		width: 100%;
+		z-index: 11;
+		height: 116px;
+	}
+	
+	.cmn-mdle-bx {
+		width: 95%;
+		margin: 20px 2.5%;
+	}
+	/* end here */
+}
+
+@media only screen and (max-width: 510px) {
+	.header-strip {
+		height:84px;
+	}
+	#content-wrap {
+		margin-top: 84px;
+	}
+    .navbar-brand {
+		font-size: 13px;
+	}
+	.logo img {
+		width:40px;
+	}
+	.logo span, .shrink .logo span {
+		top: 18px;
+	}
+	.header-strip {
+		padding: 15px 15px 0;
+	}
+	.header-fixed-top {
+		padding: 15px 15px 0;
+	}
+	.footer {
+		padding: 10px 15px;
+	}
+    /* newly added today */
+	.header-strip-reg {
+		height:78px;
+	}
+	h1.mdle-bx-title {
+		font-size: 14px;
+	}
+	.mdle-bx-form {
+		margin: 0 2.5% 0;
+		padding: 10px 0;
+	}
+	label.bx-lbl-sml, 
+	label.bx-lbl-big {
+		font-size:12px;
+	}
+	h3.sub-title-3 {
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	/* end here */
+}

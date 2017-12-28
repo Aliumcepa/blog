@@ -1,0 +1,828 @@
+[class*="col-"], .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+	margin-left:0;
+	margin-right:0;
+}
+
+body {
+	background:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* footer bottom */
+
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	/* padding-top:171px; */
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#aeb4be;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#aeb4be;;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#aeb4be;;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:#aeb4be;;
+}
+
+#content-wrap {
+	margin-top:171px;
+	padding-bottom:50px;
+}
+
+.footer {
+	background:#484848;
+	font-size:14px;
+	padding:10px 80px;
+	color:#fff;
+	height:50px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#header-shrink {
+  width: 100%;
+  /* animation magic */
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out ;
+  z-index: 9999;
+  top: 0;
+  position: fixed;
+}
+
+.header-strip .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 0;
+    font-size: 30px;
+    line-height: normal;
+	font-weight:700;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-collapse {
+	padding-left:0;
+	padding-right:0;
+}
+
+.logo span{   
+	display: inline-block;
+    position: relative;
+    top: 31px;
+	transition: top 0.4s ease-in-out;  
+}
+
+.login-bx {
+	width:100%;
+	background:#fff;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	margin:0 0 20px;
+}
+
+h1.login, .top-title {
+	background:#e6ebef;
+	padding:15px;
+	color:#484848;
+	text-transform:uppercase;
+	text-align:left;
+	font-weight:700;
+	margin-top:0;
+	padding:15px 80px;
+}
+.top-title h1, h1.login{
+   font-size:18px; 
+   font-weight:700;
+}
+.top-title-right {
+    float: right;
+    margin-top: -7px;
+}
+.top-title-right input{
+    display: inline-block;
+    min-width:100px;
+}
+.top-title-right input:last-child{
+    margin-left: 10px;
+}
+.login-form {
+	width:75%;
+	margin:20px 12.5% 0;
+	padding:20px 0;
+}
+
+.cls {
+	clear:both;
+	line-height:0;
+	margin:0;
+	padding:0;
+	font-size:0;
+}
+
+label {
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	padding-bottom:8px;
+	display:inline-block;
+	margin-bottom:0
+}
+label > span{
+    color: #cd1111;
+    display: inline-block;
+    padding-left: 5px;
+}
+/**For 50% Label**/
+.inline-label label {
+    display: inline-block;
+    margin-bottom: 0;
+    min-width:172px;
+    text-align: right;
+    padding-right: 17px;
+    float: left;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+textarea,
+select,
+.vacccin-manage-form label
+{
+	border: 1px solid #939597;
+    padding: 9px;
+    color: #aeb4be;
+    font-size: 14px;
+    margin-bottom:8px;
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 178px;
+    appearance:none;
+-moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+    /*width: calc(100% - 177px);*/
+
+}
+input.normal-w[type="text"], 
+label.normal-w{
+    min-width:148px;
+}
+.medium-w, select.medium-w,
+label.medium-w{
+   min-width:105px; 
+}
+.small-w, select.small-w{
+   min-width:66px; 
+}
+label.medium-w{
+    background-color:#fff;
+}
+.vacc-name{
+    background-color:#fdedc0;
+    color:#707070;
+}
+.inline-label input[type="text"],
+.inline-label input[type="tel"],
+.inline-label input[type="password"],
+.inline-label textarea,
+.inline-label select
+{
+/*  width: calc(100% - 172px); */
+ 
+}
+
+textarea { resize: vertical; }
+select{
+    background:#fff url(../images/select-bg.png) no-repeat 100% center;
+}
+.medium{
+    max-width:178px; 
+}
+.full-width textarea, .full-width input, .full-width select{
+   width: calc(100% - 172px);
+  
+ 
+}
+.full-width select {
+    background: url(../images/select-bg.png) no-repeat 100% center;
+}
+.right-custome .row{
+    float: right;
+}
+
+.link {
+	font-style:italic;
+	font-size:12px;
+	float:right;
+	display:block;
+	color:#aeb4be;
+}
+
+.cmn-btn {
+	background:#1cd335;
+	font-size:19px;
+	color:#fff;
+	text-align:center;
+	min-width:100%;
+	border:0;
+	padding:10px;
+	border-radius:10px;
+}
+.btn-wrap{
+    margin-top:15px;
+}
+.btn-wrap button:last-child{
+    margin-left: 10px;
+}
+
+.btn-green, .btn-blue {
+	border:0;
+	background:#5cb85c;
+	border-radius:5px;
+	color:#fff;
+	padding:7px 20px;
+	font-size:14px;
+}
+.btn-blue{
+    background:#1c5c72;
+}
+.cancel-btn{
+    background:#be9926;
+    color:#fff;
+}
+
+.cmn-btn.chk {
+	background: #1cd335 url(../images/check-sign.png) no-repeat 20px center;
+}
+
+.btn-register {
+	min-width:190px;
+	max-width:190px;
+}
+
+.login-btn-rw {
+	margin-top:40px;
+}
+
+[class*="col-"].btn-right-spce {
+	padding-right:25px;
+}
+
+[class*="col-"].btn-left-spce {
+	padding-left:25px;
+}
+
+[class*="col-"].col-right-spce {
+	padding-right:12px;
+}
+
+[class*="col-"].col-left-spce {
+	padding-left:12px;
+}
+
+.indexcity {
+  z-index: 9999;
+}
+
+.right {
+    right: 0 !important;
+    left: 0 !important;
+}
+
+.navbar {
+	margin-bottom:0;
+}
+
+.navbar-inverse .navbar-nav > li >a,
+.nav > li > a {
+	color:#fff;
+	font-size:14px;
+}
+
+.top-header {
+	width:100%;
+	border-bottom:2px solid #c1e2ff;
+	display:block;
+	padding-bottom: 15px;
+	transition: padding-bottom 0.4s ease-in-out;  
+}
+
+.usr-info-bx {
+	padding-top: 34px;
+	transition: padding-top 0.4s ease-in-out; 
+}
+
+.usr-nme-txt {
+	font-size:14px;
+	color:#fff;
+	display:inline-block;
+	padding-right:30px;
+	padding-right:30px;
+}
+
+.header-strip {
+	background:#227998;
+	padding-top:15px;
+	padding-left:80px;
+	padding-right:80px;
+	width:100%;
+	z-index:11;
+	height:171px;
+}
+
+.header-strip .logo img {
+	transition: opacity 0.4s ease-in-out;
+    opacity: 1; 
+	display:inline-block;
+}
+
+.shrink {
+	background:#227998;
+	padding:15px 80px 0;
+	width:100%;
+	z-index:11;
+	height:115px;
+}
+
+.shrink .logo img {
+	transition: opacity 0.4s ease-in-out;
+    opacity: 0; 
+	display:none;
+}
+
+.shrink .logo span {
+	top: 0;
+}
+
+.shrink .usr-info-bx {
+    padding-top: 0;	 
+}
+
+.shrink .top-header {
+	padding-bottom:10px;	
+}
+/**Search Css**/
+.searchSec input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #227998;
+    font-weight: normal;
+    font-size: 12px;
+    min-width: 178px;
+    padding:5px 0;
+}
+.searchSec input:focus,
+.searchSec button:focus{
+    outline:0;
+}
+.searchSec {
+    float: right;
+    position: relative;
+    min-width: 178px;
+    margin-top: -4px;
+}
+.top-title h1 {
+    display: inline-block;
+    margin: 0;
+}
+.searchSec button{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    color: #227998;
+    background-color: transparent;
+    border: 0;
+}
+/**Search Css End Here**/
+
+/**Grid Css**/
+.grid, .main-inner {
+    padding: 0 80px;
+    margin-bottom: 12px;
+}
+.tbl{
+    width: 100%;
+}
+.tbl th, .tbl td{ 
+   padding: 9px 5px;
+   text-align: left;
+   font-size: 12px;
+}
+
+.tbl td{
+    text-align: left;
+}
+.tbl tr > td:first-child,
+.tbl tr > th:first-child{
+    text-align: center;
+}
+.tbl th{
+    padding-top: 14px;
+}
+.tbl tr:nth-child(even){
+    background-color:#f1f5f8;
+}
+.tbl tr:nth-child(odd){
+    background-color:#fff;
+}
+.fem i{
+    color:#ec6d9b;
+}
+.tbl i{
+    font-size: 14px;
+}
+/**Grid Css End Here**/
+
+/**Footer css**/
+footer span {
+    display: inline-block;
+    margin-top: 5px;
+}
+/**Footer Css End Here**/
+
+/**Doctor Profile css**/
+.profile-pic {
+    display: inline-block;
+    border: 1px solid #939597;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+.docter-profile-wrap {
+    padding: 20px 0;
+}
+.addClinick button{
+    background-color:#1b5b73;
+    color: #fff;
+}
+.addClinick button > span{padding: 0 10px;
+}
+.addClinickWrap {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.addClinick button:hover, .addClinick button:active, .addClinick button:focus{
+    color: #fff;
+}
+.nav-tabs {
+    border: 0;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+.avilable-time{
+    width: 297px;
+}
+.avilable-time .nav-tabs li a:hover{
+    background-color:#217997;
+}
+.avilable-time .nav-tabs li {
+    list-style-type: none;
+    width: 100%;
+}
+.avilable-time .nav-tabs li a {
+    background-color: #217997;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    text-align: center;
+}
+.avilable-time .nav-tabs li.active a,
+.avilable-time .nav-tabs li a:hover{
+    border:0;
+    border-radius: 0;
+    background-color:#1b5b73;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.avilable-time h4{
+    font-size: 15px;
+    color:#484848;
+    font-weight: bold;
+}
+.wrap-content label{
+    min-width: 70px;
+    margin-top: 9px;
+    font-size: 13px;
+    color: #484848;
+}
+.wrap-content select{
+    background-position:100% center;
+}
+.wrap-content select.input-field{
+      min-width: 129px;
+    background-color: #fff;
+    float: right;
+        margin-bottom: 15px;
+}
+.wrap-content .row:last-child select{
+    margin-bottom: 0;
+    
+}
+.wrap-content {
+    padding: 12px;
+    
+}
+.tab-content {
+    background-color: #f1f1f1;
+    border: 1px solid #939597;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+}
+.avilable-time{
+    margin-top: 35px;
+}
+
+/**Doctor Profile Css End Here**/
+/* CSS for registration page */
+
+#content-wrap-reg {
+	margin-top: 3px;
+    padding-bottom: 50px;
+}
+
+.header-strip-reg {
+    background: #227998;
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    z-index: 11;
+    height: 116px;
+}
+
+.header-strip-reg .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header-reg {
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+    transition: padding-bottom 0.4s ease-in-out;
+}
+
+.cmn-mdle-bx {
+	width:60%;
+	margin:20px 20%;
+	background:#f6f6f6;	
+}
+
+h1.mdle-bx-title {
+	background:#e6ebef;
+	color:#484848;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:700;
+	margin-top:0;
+	padding:15px;
+	font-size:18.5px
+}
+
+.mdle-bx-form {
+	width: 95%;
+    margin: 20px 2.5% 0;
+    padding: 20px 0;
+}
+
+.ast {
+	color:#c90000;
+}
+
+label.bx-lbl-big {
+	width:172px;
+	padding-right:10px;
+	text-align:right;
+}
+
+label.bx-lbl-sml {
+	width:152px;
+	padding-right:10px;
+	text-align:right;
+}
+
+.mdle-bx-form select{
+    background:#fff url(../images/select-bg.png) no-repeat 93% center;
+}
+
+h3.sub-title-3 {
+	font-size:15px;
+	color:#000000;
+	padding-bottom:6px;
+	width:100%;
+	margin-bottom:25px;
+}
+
+.bdr-btm-title {
+	border-bottom:1px solid #227998;
+}
+
+.note-txt{
+	font-style:italic;
+	font-size:11px;
+	color:#707070;
+	width:calc(100% - 152px);
+	display:inline-block;
+	padding-left:152px;
+}
+
+.btn-register-nw {
+	min-width:120px;
+	max-width:120px;
+}
+
+/**End Here**/
+
+/* Vaccination Management Css Start Here*/
+
+
+.vacccin-manage-form input::placeholder{
+    color:#707070;
+    opacity: 1;
+}
+.vacccin-manage-form input, .vacccin-manage-form label, .vacccin-manage-form select{
+    height:25px;
+    padding:3px 6px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.vacccin-manage-form input.qty[type]{
+    background: #fff url(../images/spapr.png) no-repeat 100% center;
+    cursor: pointer;
+
+}
+input.qtyplus {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 12px;
+    width: 20px;
+    border: 0;
+    outline:none;
+     background:transparent;
+}
+input.qtyminus {
+    position: absolute;
+    right: 0;
+    height: 12px;
+    bottom:0;
+    width: 20px;
+    border: 0;
+    outline:none;
+    background:transparent;
+}
+input.qtyminus, input.qtyplus{
+    background: url(../images/sprite_ipan.png) no-repeat -9px -4px/ 500px;
+        font-size: 0;
+}
+input.qtyminus{
+    background: url(../images/sprite_ipan.png) no-repeat -9px -18px/ 500px; 
+}
+.vacccin-manage-form select{
+     background:#fff url(../images/select-bg-sm.png) no-repeat 100% center;
+    cursor: pointer;
+}
+.vacccin-manage-form select,
+ .quantity-sec{
+    display: inline-block;
+}
+.quantity-sec {
+    position: relative;
+    width: 66px;
+    margin-left: 14px;
+    
+}
+.quantity-sec::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    height: 29px;
+    width: 1px;
+    background-color: #484848;
+    top: -2px;
+}
+.quantity-sec > input[type="text"]{
+    min-width: 100%;
+    min-width: 66px;
+    width: 66px;
+}
+.vacccin-manage-form label{
+    background-color:#fff;
+    text-align: left;
+    color:#707070;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#849694;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left:-2px;
+  bottom:-4px;
+  background-color:#ec1b24;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color:#849694;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+label.switch {
+    width: 30px;
+    min-width: 30px;
+    height: 8px;
+    background-color:#849694;
+}
+input:checked + .slider:before{
+    background-color:#62b770;
+}
+
+/**end active button css**/
+.medium-w.center {
+    text-align: center;
+}
+.vacccin-manage-form .tbl th, .vacccin-manage-form .tbl td{
+    text-align: center;
+}
+.vacccin-manage-form tr:nth-child(2) > td{
+    background-color:#d3e4ea;
+}
+.vacccin-manage-form input.normal-w[type="text"],
+select.medium-w.age{
+   color:#707070;
+}
+
+
+
+/* Vaccination Management Css End Here */
